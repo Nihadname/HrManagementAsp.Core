@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "5HCF7lYS4zUpxzIZUQoKAbbcctddiCnLJBYd445BsvM=",
+  "Source": "WebApplication6",
+  "BasePath": "_content/WebApplication6",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplication6\\wwwroot",
+      "Source": "WebApplication6",
+      "ContentRoot": "C:\\Users\\nihad\\source\\repos\\WebApplication6\\WebApplication6\\wwwroot\\",
+      "BasePath": "_content/WebApplication6",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

@@ -1,0 +1,20 @@
+﻿@model List<Department>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Department id</th>
+            <th scope="col"> Department Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+                <th scope="row">@i</th>
+                <td>@Model[i].Id</td>
+                <td><a asp-controller="Employeer" asp-action="index" asp-route-id="@Model[i].Id" class="text-decoration-none text-black">@Model[i].Name</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
